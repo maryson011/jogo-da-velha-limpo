@@ -1,3 +1,3 @@
-export function somar(a: number, b:number): number {
-    return a + b
-}
+import Player from "./player/Player";
+
+export { Player }
