@@ -1,3 +1,4 @@
 import Player from "./player/Player";
+import Cell from "./shared/Cell";
 
-export { Player }
+export { Cell, Player }
