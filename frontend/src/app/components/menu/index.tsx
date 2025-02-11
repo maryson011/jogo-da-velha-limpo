@@ -4,7 +4,7 @@ import Button from '../shared/Button'
 import { useContext } from 'react'
 import GameContext from '@/contexts/GameContext'
 import Card from '../shared/Card'
-import { PlayerType } from '../../../core/src/index'
+import { PlayerType } from '../../../../../core/src/index'
 
 export default function Menu() {
     const { currentPlayer, restart } = useContext(GameContext)

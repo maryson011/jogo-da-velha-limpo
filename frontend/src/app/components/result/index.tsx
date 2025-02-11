@@ -2,7 +2,7 @@
 import { useContext } from 'react'
 import GameContext from '@/contexts/GameContext'
 import Modal from '../shared/Modal'
-import { PlayerType } from '../../../core/src/index'
+import { PlayerType } from '../../../../../core/src/index'
 import { IconCircle, IconX } from '@tabler/icons-react'
 import Button from '../shared/Button'
 

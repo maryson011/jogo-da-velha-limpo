@@ -1,5 +1,5 @@
 import { IconCircle, IconX } from '@tabler/icons-react'
-import { PlayerType } from '../../../core/src/index'
+import { PlayerType } from '../../../../../core/src/index'
 import Card from '../shared/Card'
 
 export interface CellAreaProps {

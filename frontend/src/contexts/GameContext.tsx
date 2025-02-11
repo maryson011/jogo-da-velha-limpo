@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
-import { Board, Game, GameResult, Player, PlayerType } from "../core/src/index"
+import { Board, Game, GameResult, Player, PlayerType } from "../../../core/src/index"
 import { createContext, useState } from "react"
 
 interface GameContextProps {
