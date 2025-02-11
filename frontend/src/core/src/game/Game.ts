@@ -1,11 +1,11 @@
-import Player from "@/player/Player";
+import Player from "../player/Player";
 import Board from "./Board";
-import GameResult from "@/result/GameResult";
-import { PlayerType } from "@/shared/PlayerType";
-import VerticalChecker from "@/result/VerticalChecker";
-import HorizontalChecker from "@/result/HorizontalChecker";
-import DiagonalChecker from "@/result/DiagonalChecker";
-import TieChecker from "@/result/TieChecker";
+import GameResult from '../result/GameResult'
+import { PlayerType } from "../shared/PlayerType";
+import VerticalChecker from "../result/VerticalChecker";
+import HorizontalChecker from "../result/HorizontalChecker";
+import DiagonalChecker from "../result/DiagonalChecker";
+import TieChecker from "../result/TieChecker";
 
 export default class Game {
     private constructor(

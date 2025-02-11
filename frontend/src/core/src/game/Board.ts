@@ -1,5 +1,5 @@
-import Cell from "@/shared/Cell";
-import { PlayerType } from "@/shared/PlayerType";
+import Cell from "../shared/Cell";
+import { PlayerType } from "../shared/PlayerType";
 
 export default class Board {
     constructor(
