@@ -3,16 +3,38 @@ import type { Config } from "tailwindcss";
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+        primary: {
+          400: '#65E9E4',
+          500: '#31C3BD',
+          600: '#218C87',
+        },
+        secondary: {
+          400: '#FCC860',
+          500: '#F3B136',
+          600: '#CC8B13',
+        },
+        dark: {
+          400: '#1F3641',
+          500: '#1F3641',
+          600: '#10212A'
+        },
+        light: {
+          400: '#DBE8ED',
+          500: '#A8BFC9',
+          600: '#6B8997'
+        }
+      }
+    }
   },
+  safelist: [
+    { pattern: /^bg-primary/, variants: ['hover'] },
+    { pattern: /^bg-secondary/, variants: ['hover'] },
+    { pattern: /^bg-dark/, variants: ['hover'] },
+    { pattern: /^bg-light/, variants: ['hover'] },
+  ], 
   plugins: [],
 } satisfies Config;
